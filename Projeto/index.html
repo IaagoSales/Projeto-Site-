@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Plataformas!</title>
+  </head>
+  <body>
+    <div class="container">
+        <h1 class="alert text-light bg-primary">
+            Plataformas de Jogos
+        </h1>
+        <nav>
+          <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Menu</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Pagina Inicial</a>
+                  </li>
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Plataformas
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Steam</a></li>
+                      <li><a class="dropdown-item" href="#">Origin</a></li>
+                      <li><a class="dropdown-item" href="#">Epic Games</a></li>
+                      <li><a class="dropdown-item" href="#">uPlay</a></li>
+                      <li><a class="dropdown-item" href="#">Blizzard</a></li>
+                      <li><a class="dropdown-item" href="#">GOG</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index2.html" >Demais Plataformas</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Pesquisar Plataformas" aria-label="Search">
+                  <button class="btn btn-outline-dark" type="submit">Pesquisar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </nav>
+        <section>
+            <div class="card mt-3">
+                <div class="card-header bg-primary text-light">
+                    <h2>Steam</h2>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                      <div class="col-xs-12 col-md-3">
+                          <img class="w-100" src="data:image/jpeg;base64,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">
+                      </div>
+                      <div class="col-xs-12 col-md-9">
+                        <p>Steam</p>
+                        <p>É a maior plataforma de videogame de computador, tanto para PC quanto para Mac. A partir de hoje, oferece aos seus usuários cerca de 7.500 jogos, por isso é quase impossível não encontrar aquele título específico que você estava procurando. Não há desculpa para ficar entediado com o Steam.</p>
+                        <p>O Steam também é uma opção recomendada para aqueles jogadores que querem apenas se divertir com jogos grátis. Existe uma seção específica para eles chamada "FreeToPlay".</p>
+                      </div>
+                    </div>
+                </div> 
+                <div class="card-footer bg-primary">
+                    <a href="#" class="btn btn-outline-dark">
+                      Baixar para Windows
+                    </a>
+                    <a href="#" class="btn btn-outline-dark">
+                      Baixar para Mac 
+                    </a>
+                </div> 
+            </div>
+            <div class="row mt-3">
+              <div class="col-xs-12 col-md-6">
+                <div class="card">
+                  <div class="card-header bg-primary text-light">
+                    <h2>Epic Games</h2>
+                  </div>
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-xs-12 col-md-6">
+                        <img class="w-100 h-100" src="https://www.aroged.com/wp-content/uploads/2021/08/Free-PC-games-next-gift-revealed-on-Epic-Games-Store.webp.webp">
+                      </div>
+                      <div class="col-xs-12 col-md-6">
+                        <p>Epic Games</p>
+                        <p>Relativamente recentemente epic Games partiu para encontrar seu pedaço de bolo em plataformas de jogos para PC. No entanto, graças a jogos como Fortnite, ele logo conseguiu conquistar um nicho importante.</p>
+                        <p>Sua interface não é das melhores e tem havido algumas dúvidas sobre a garantia de privacidade de seus jogadores, mas mesmo com esses inconvenientes a Epic Games Store oferece títulos exclusivos e vários jogos gratuitos.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-footer bg-primary">
+                    <a href="#" class="btn btn-outline-dark">
+                      Baixar para Windows
+                    </a>
+                    <a href="#" class="btn btn-outline-dark">
+                      Baixar para Mac 
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-6">
+                <div class="card">
+                  <div class="card-header bg-primary text-light">
+                    <h2>Blizzard</h2>
+                  </div>
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-xs-12 col-md-6">
+                        <img class="w-100 h-100" src="https://cdn.dribbble.com/users/622335/screenshots/4340826/800.jpg">
+                      </div>
+                      <div class="col-xs-12 col-md-6">
+                        <p>Blizzard(Battle.net)</p>
+                        <p>Battle.net é o nome da plataforma de propriedade do produtor Nevasca. Por este motivo esta é a melhor opção disponível que vamos ter para desfrutar de jogos como Overwatch (na imagem), Call of Duty o World Of Warcraft. Por este motivo, justifica-se incluí-lo na lista.</p>
+                        <p>Além da facilidade de acesso a todos os seus jogos, o Battle.net (Blizzard) possui uma grande e muito ativa comunidade de usuários, seu jogo principal WOW(World of Warcraft).</p>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="card-footer bg-primary">
+                    <a href="#" class="btn btn-outline-dark">
+                      Baixar para Windows
+                    </a>
+                    <a href="#" class="btn btn-outline-dark">
+                      Baixar para Mac 
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
+
+<!-- Cards, Grid 
